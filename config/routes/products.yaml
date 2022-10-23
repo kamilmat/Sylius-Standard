@@ -1,0 +1,5 @@
+products:
+    path: /api/products
+    # the controller value has the format 'controller_class::method_name'
+    controller: App\Controller\ProductsController::list
+    methods:    GET
